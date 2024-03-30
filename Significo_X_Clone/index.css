@@ -75,3 +75,60 @@ body[theme="white"] .section{
 .animate .letter:nth-child(7) { transition-delay: 0.7s; }
 .animate .letter:nth-child(8) { transition-delay: 0.8s; }
 .animate .letter:nth-child(9) { transition-delay: 0.9s; }
+
+.cards__list {
+    width: 39.2rem;
+    grid-row-gap: 2.08rem;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 14rem;
+    padding-top: 43.5rem;
+    padding-bottom: 22.09rem;
+    display: flex;
+}
+
+[theme=cyan] .cards__item {
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.cards__item--active {
+    grid-row-gap: 2.08rem;
+    background-color: var(--black);
+    color: var(--cyan);
+    border-color: var(--black);
+    transition: transform 0.3s ease-out, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.cards__item {
+    transition: background-color var(--ease-out), color var(--ease-out), width var(--ease-out), transform var(--ease-out), border-color var(--ease-out);
+}
+
+.cards__item {
+    width: 35.5rem;
+    min-height: 12.92rem;
+    border: 1px solid var(--black);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.39rem 2.78rem;
+    display: flex;
+}
+
+.cards__content {
+    grid-column-gap: 1.39rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.cards__icon {
+    width: 4.44rem;
+    height: 4.44rem;
+}
+
+.svg {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
