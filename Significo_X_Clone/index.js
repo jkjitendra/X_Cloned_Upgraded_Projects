@@ -226,15 +226,13 @@ function significoLogoAnimation() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    loco();
-    homePageAnimation();
-    craftPageAnimation();
-    realPageAnimation();
-    teamPageAnimation();
-    testimonialsPageAnimation();
-    capsulesPageAnimation();
-    footerReachedBottom();
-    bodyColorThemeChange();
-    significoLogoAnimation();
-});
+loco();
+homePageAnimation();
+craftPageAnimation();
+realPageAnimation();
+teamPageAnimation();
+testimonialsPageAnimation();
+capsulesPageAnimation();
+footerReachedBottom();
+bodyColorThemeChange();
+significoLogoAnimation();
