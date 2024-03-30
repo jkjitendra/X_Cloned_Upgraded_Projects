@@ -1,558 +1,857 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Significo X Clone</title>
-    </head>
-    <body theme="black">
-        <div class="main w-full">
-            <div data-color="black" class="home section w-full h-[200vh] relative">
-                <div class="w-full sticky top-0 left-0">
-                    <div class="btmtext absolute z-[4] bottom-[4.5%] left-[3.2%] w-52 ">
-                        <h1 class="font-['Satoshi_variable']">We build big ideas.</h1>
-                        <h1 class="font-['Satoshi_variable']">Software. Apps. Tools.</h1>
-                        <h1 class="font-['Satoshi_variable']">For real people. Real lives.</h1>
-                    </div>
-                    <div style="--clip: 100%" class="vdodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden">
-                        <video loop autoplay muted class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq"></video>
-                    </div>
-                    <div class="marqueescontainer w-full h-screen relative overflow-hidden">
-                        <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-73 text-center">
-                            <h1 class="text-[1.67rem] leading-[1.6] font-['Satoshi_variable'] ">Crafting a new paradigm of</h1>
-                            <h1 class="text-[1.67rem] leading-[1.6] font-['Satoshi_variable'] ">healthcare, one that is</h1>
-                        </div>
-                        <div class="slidesm absolute scale-[1] top-[57%] left-[41.8%] 2xl:top-[54.2%] 2xl:left-[65.25%] -translate-x-1/2 -translate-y-1/2 w-[90%]">
-                            <div class="row rgt 2xl:-translate-x-1/3 -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">intuitive</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                                </div>
-                            </div>
-                            <div class="row lft -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                </div>
-                            </div>
-                            <div class="row rgt -translate-x-1/3 w-full flex items-center gap-10 whitespace-nowrap">
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                </div>
-                            </div>
-                            <div class="row lft -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
-                                    <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
-                                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="elem flex items-center gap-10">
-                                    <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-color="cyan" class="craft section section-space w-full flex gap-10 justify-between items-start mt-[13rem] px-10 py-10 relative">
-                <div class="ltext w-[40%] sticky top-0 left-0 font-['Satoshi_variable'] ">
-                    <div class="subtxtpara">
-                        <p class="text-[1.25rem] leading-[1.6] tracking-[-0.02em]">Significo is a leading health software creator founded on the belief</p>
-                        <p class="text-[1.25rem] leading-[1.6] tracking-[-0.02em]">that technology can transform healthcare to put people first.</p>
-                        <p class="text-[1.25rem] leading-[1.6] tracking-[-0.02em]">Whether they are employees, members, customers, or clients, we</p>
-                        <p class="text-[1.25rem] leading-[1.6] tracking-[-0.02em]">never forget the real people we're designing for.</p>
-                    </div>
-                    <div class="craftHeading mt-[2rem] mb-10">
-                        <h1 class="text-[4.4rem] leading-[1.2] font-['Pp_Neue_Machina'] ">We Craft</h1>
-                        <h1 class="text-[4.4rem] leading-[1.2] font-['Pp_Neue_Machina'] ">Human-Cetric</h1>
-                        <h1 class="text-[4.4rem] leading-[1.2] font-['Pp_Neue_Machina'] ">Health Software</h1>
-                    </div>
-                    <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
-                        <div class="masker overflow-hidden">
-                            <span class="inline-block">OUR SOLUTIONS</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="cards w-1/2">
-                    <p class="text-6xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam iure consectetur, eum ea ratione officiis quasi mollitia quia consequatur natus minus facere expedita numquam dolor, beatae accusamus impedit ipsum esse.
-                    Obcaecati corrupti id, quaerat officia eius facilis adipisci temporibus fugiat eaque laudantium quibusdam possimus, dolores deserunt cupiditate repellat maxime quia laboriosam debitis quis nihil ratione maiores reiciendis. Non, alias aliquam.
-                    Dicta temporibus, saepe neque dolore distinctio unde, dignissimos aut itaque eaque vitae reiciendis voluptatibus deleniti placeat sint corrupti ipsum consequuntur laudantium, sed voluptatem quisquam. Impedit nulla molestias quia corporis dolorem!
-                    Aspernatur rem pariatur, nesciunt et expedita, ullam deserunt incidunt nihil error molestias possimus, animi officia cum alias voluptate provident laboriosam? Cum molestias animi eos odit delectus doloremque dolor natus obcaecati!
-                    Magni illo esse ipsam neque earum animi officia aut atque molestiae ullam, reiciendis suscipit corrupti architecto odit, ipsum perspiciatis eligendi eum iure quam accusamus amet corporis. Vel iure asperiores explicabo!
-                    Velit suscipit quisquam, quidem aut illum magnam obcaecati, dignissimos fugit ex alias ea porro! Eos, excepturi quam similique illo et quas vel. Aliquam laudantium illo sunt cupiditate recusandae. Dignissimos, quia.</p>
-                </div>
-            </div>
-            <div data-color="salmon" class="real section w-full ">
-                <div class="cont h-[400vh] relative">
-                    <div class="slides overflow-hidden sticky top-0 left-0 flex w-full gap-20 h-[100vh]">
-                        <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 ">
-                            <div class="text font-['Pp_Neue_Machina']">
-                                <h1 class="text-[6.67rem] leading-[1.2] ">Real Talk,</h1>
-                                <h1 class="text-[6.67rem] leading-[1.2] ">Real Impact</h1>
-                            </div>
-                            <div class="image absolute top-1/2 rounded-full -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-500 overflow-hidden">
-                                <img class="w-full h-full object-cover scale-[1.2] " src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D" alt="Philip Martin" />
-                            </div>
-                        </div>
-                        <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 relative">
-                            <div class="img1 absolute z-[3] left-[25%] bottom-[13%] rounded-full overflow-hidden w-[9rem] h-[9rem]">
-                                <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBvcnRyYWl0fGVufDB8fDB8fHww" alt=""/>
-                            </div>
-                            <div class="img1 absolute z-[3] left-1/2 -translate-y-1/2 -translate-x-1/2 top-0 rounded-full overflow-hidden w-[15rem] h-[15rem]">
-                                <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edd08cc0ac13ed6995bd_4.jpg" alt=""/>
-                            </div>
-                            <div class="image absolute top-1/2 rounded-full -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-500 overflow-hidden">
-                                <img class="w-full h-full object-cover scale-[1.2] " src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee2e5e80fe8ace7a1ff3_5.jpg" alt="Philip Martin" />
-                            </div>
-                            <div class="img1 absolute z-[3] left-1/2 -translate-x-1/2 top-[76%] rounded-full overflow-hidden w-[21rem] h-[21rem]">
-                                <img class="w-full h-full object-cover scale-[1.2]" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee19cb5203ee12c21ba3_3.jpg" alt=""/>
-                            </div>
-                            <div class="w-[60%] text-center font-['Pp_Neue_Machina'] relative">
-                                <h3 class="w-1/3 text-left font-[500] leading-7 tracking-tight text-[1.25rem] absolute top-0 left-0 font-['Satoshi_variable'] -translate-y-1/2 -translate-x-1/3">We're on a mission to impact as many lives as possible and build a better company while we do it. Here's our progress.</h3>
-                                <h1 class="font-semibold leading-none text-[9.74rem] text-white">20.4M</h1>
-                                <h3 class="text-[2.7rem] font-[500] leading-none tracking-tight">Real people — real lives — we have built products and solutions for.</h3>
-                            </div>
-                        </div>
-                        <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative">
-                            <img class="w-[15rem] 2xl:scale-[1.4] absolute bottom-[74%] 2xl:bottom-[80%] left-[35%] 2xl:left-[40%] -translate-x-1/2" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure.png" alt="">
-                            <div class="w-[60%] top-0 left-[5%] 2xl:left-[10%] font-['Pp_Neue_Machina'] relative">
-                                <h3 class="w-1/3 text-left font-[500] leading-7 tracking-[-0.02em] text-[1.25rem] absolute top-[-25%] left-[-20%] 2xl:left-[-25%] font-['Satoshi_variable'] -translate-y-1/2 -translate-x-1/3">Our team is global and diverse, because our individual experiences make us stronger.</h3>
-                                <h1 class="font-semibold leading-none text-[9.74rem] text-white">49%</h1>
-                                <h3 class="text-[2.78rem] font-semibold leading-[1.2] tracking-tight">Expert Women in Tech.</h3>
-                            </div>
-                            <img class="w-[22rem] 2xl:scale-[1.2] absolute top-[60%] 2xl:top-[40%] left-[85%] -translate-y-1/2 -translate-x-1/2" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png" alt="">
-                            <img class="w-[22rem] 2xl:scale-[1.4] absolute top-[63%] 2xl:top-[72.5%] left-[31%] -translate-x-1/2" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-color="white" class="team section font-['Pp_Neue_Machina'] py-20">
-                <h1 class="text-center font-[300] text-7xl tracking-tight">Our Team</h1>
-                <div class="list mt-10 w-full px-10 ">
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">01</h3>
-                                <h1 class="text-5xl">Dr. Ric McCartney</h1>
-                            </div>                        
-                            <h3  class="text-3xl">CEO</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                    </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">02</h3>
-                                <h1 class="text-5xl">Chris Koha</h1>
-                            </div>                        
-                            <h3  class="text-3xl">COO</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">03</h3>
-                                <h1 class="text-5xl">Caroline Nieto</h1>
-                            </div>                        
-                            <h3  class="text-3xl">Chief Product Officer</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">04</h3>
-                                <h1 class="text-5xl">Victor Albertos</h1>
-                            </div>                        
-                            <h3  class="text-3xl">CTO</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">05</h3>
-                                <h1 class="text-5xl">Dr. Jana Hapfelmeier</h1>
-                            </div>                        
-                            <h3  class="text-3xl">Chief Innovation Officer</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">06</h3>
-                                <h1 class="text-5xl">Michael Robin</h1>
-                            </div>                        
-                            <h3  class="text-3xl">VP of Marketing</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">07</h3>
-                                <h1 class="text-5xl">Adrian Rubio</h1>
-                            </div>                        
-                            <h3  class="text-3xl">VP of Engineering</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">08</h3>
-                                <h1 class="text-5xl">Cy Serrano</h1>
-                            </div>                        
-                            <h3  class="text-3xl">VP of Product</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                    <div class="listitem w-full py-[3rem] relative">
-                        <div class="relative flex items-center justify-between z-[3]">
-                            <div class="left flex gap-20">
-                                <h3 class="text-5xl">09</h3>
-                                <h1 class="text-5xl">Lenya McGrath</h1>
-                            </div>                        
-                            <h3  class="text-3xl">VP of Partnerships</h3>
-                        </div>
-                        <div class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] bg-red-500">
-                        </div>
-                        <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-color="white" class="testimonials section w-full mt-[40rem] flex flex-col items-center justify-center px-10 gap-10">
-                <div class=" text self-start w-[45%] flex flex-col items-center justify-center">
-                    <div class="divider w-[6.94rem] h-[1px] bg-[#00000033] mt-[3.33rem] mb-[3.33rem]"></div>
-                    <h3 class="testimonials-para text-3xl font-light leading-[2.8rem] text-center whitespace-pre-line ">Working with the Significo team has been such
-                        a pleasure! We took on a significant project to
-                        rebuild our entire platform and the team
-                        approached the project with our best interests
-                        in mind. They continue to prioritize the end
-                        user experience and offer amazing expertise in
-                        all of the areas we lack internally. I would
-                        personally be lost without this team, their
-                        ability to problem solve, their openness to
-                        feedback and desire to build the product like it
-                        is their own.
-                    </h3>
-                        <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
-                            <div class="image w-32 h-32 bg-red-500 rounded-full overflow-hidden"></div>
-                            <h1 class="text-3xl">Miranda Ernst</h1>
-                            <h3>Product Manager @ HealthCheck360</h3>
-                        </div>
-                </div>
-                <div class=" text self-end w-[45%] flex flex-col items-center justify-center ">
-                    <div class="divider w-[6.94rem] h-[1px] bg-[#00000033] mt-[3.33rem] mb-[3.33rem]"></div>
-                    <h3 class="testimonials-para text-3xl font-light leading-[2.8rem] text-center whitespace-pre-line ">Working with Significo and their
-                        recommendation service has been a
-                        game-changer for our occupational
-                        prevention efforts. Our customers are
-                        extremely satisfied with the tool's impressive
-                        technical capabilities and data-driven
-                        approach. But what truly sets it apart is the
-                        intuitive and modern user experience it offers,
-                        making it a breeze for our clients to navigate.
-                        By leveraging this service, our customers have
-                        successfully tackled presenteeism and
-                        absenteeism, making a significant impact on
-                        their workforce's well-being. We highly
-                        recommend Significo to any organization
-                        looking to optimize their occupational health
-                        and drive positive change.</h3>
-                        <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
-                            <div class="image w-32 h-32 bg-red-500 rounded-full overflow-hidden"></div>
-                            <h1 class="text-3xl">Emek Altun</h1>
-                            <h3>CEO @ Vitaservices</h3>
-                        </div>
-                </div>
-            </div>
-            <div data-color="white" class="capsules section w-full flex items-start justify-between gap-10 h-screen 2xl:mt-[36rem] 2xl:pl-[3rem] mt-[30rem] pl-[2rem] pr-[4rem]">
-                <div class="left w-1/3 2xl:w-1/2 h-full flex flex-col justify-between ">
-                    <h1 class="text-[1.25rem] scale-[0.9] leading-[1.6] font-[450] 2xl:font-[480] 2xl:text-[1.7rem] font-['Satoshi_variable'] whitespace-pre-line ml-[-10px] mt-[-50px] ">Stay up-to-date on the 
-                        latest healthcare 
-                        innovations and thought 
-                        leadership.</h1>
-                    <div class="heading font-['Pp_Neue_Machina'] ml-[10px] 2xl:ml-[34px] 2xl:mb-[10.6rem]">
-                        <h1 class="text-6xl 2xl:text-[6.1rem] 2xl:font-[300] 2xl:leading-[1.2] ">Explore</h1>
-                        <h1 class="text-6xl 2xl:text-[6.1rem] 2xl:font-[300] 2xl:leading-[1.2] ">Our Insights</h1>
-                        <div class="w-fit px-[1.8rem] mt-10 mb-[3.5rem] py-3 border-[1px] border-[--dcyan] 2xl:pt-[2.11rem] 2xl:pr-[5.67rem] 2xl:pb-[2.11rem] 2xl:pl-[5.67rem]">
-                            <div class="masker overflow-hidden">
-                                <span class="inline-block font-['Satoshi_variable']">VIEW ALL ARTICLES</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="right font-['Pp_Neue_Machina'] h-full flex items-center px-10 gap-20 2xl:pr-[16.3rem]">
-                    <div class="capsule -rotate-[15deg] -translate-y-[20%] flex flex-col items-center pt-[3.5rem] pb-[2.5rem] pl-[1.5rem] pr-[1.5rem] mt-[15rem] rounded-full border-[1px] border-[#E9BBFF] 2xl:pt-[6.5rem] 2xl:pb-[6.5rem] 2xl:pl-[3.5rem] 2xl:pr-[3.5rem] ">
-                        <div class="w-80 h-80 bg-yellow-500 2xl:mb-[78px] rounded-full overflow-hidden">
-                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png" alt="" />
-                        </div>
-                        <div class="text text-center mt-10 mb-10">
-                            <h3 class="text-xl font-semibold">Equity in Tech: An</h3>
-                            <h3 class="text-xl font-semibold">International Women's</h3>
-                            <h3 class="text-xl font-semibold">Day Conversation with</h3>
-                            <h3 class="text-xl font-semibold">Caroline Nieto,</h3>
-                            <h3 class="text-xl font-semibold">Significo's CPO</h3>
-                        </div>
-                        <button class="bg-[#E9BBFF] font-semibold text-black rounded-full text-s mt-10 mb-[1.39rem] py-2 px-3">Thought Leadership</button>
-                    </div>
-                    <div class="capsule -rotate-[15deg] -translate-y-[7%] flex flex-col items-center pt-[3.5rem] pb-[2.5rem] pl-[1.5rem] pr-[1.5rem] rounded-full border-[1px] border-[#E9BBFF] 2xl:pt-[6.5rem] 2xl:pb-[6.5rem] 2xl:pl-[3.5rem] 2xl:pr-[3.5rem]">
-                        <button class="bg-[#E9BBFF] font-semibold text-black rounded-full text-s mt-[1.39rem] mb-10 py-2 px-3">Thought Leadership</button>
-                        <div class="text text-center mb-5">
-                            <div class="text-heading mb-5">
-                                <h3 class="text-xl font-semibold">How to Use Digital</h3>
-                                <h3 class="text-xl font-semibold">Health Interventions</h3>
-                                <h3 class="text-xl font-semibold">to Align Employee &</h3>
-                                <h3 class="text-xl font-semibold">Organizational Goals</h3>
-                            </div>
-                            <div class="text-desc font-['Satoshi_variable']">
-                                <p class="text-[0.97rem] font-[400]">How to use personalized digital health</p>
-                                <p class="text-[0.97rem] font-[400]">interventions to empower employees while </p>
-                                <p class="text-[0.97rem] font-[400]">achieving your organization's goals.</p>
-                            </div>
-                        </div>
-                        <div class="w-80 h-80 bg-yellow-500 2xl:mt-[78px] rounded-full overflow-hidden">
-                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="discover section flex justify-between items-end 2xl:p-[7rem] p-[4rem] md:mt-[13rem] bg-[#F6F19C]">
-                <div class="groupBtnText">
-                    <h1 class="text-[4.4rem] font-[300] tracking-[0.02em] leading-[1.2] whitespace-pre-line font-['Pp_Neue_Machina'] ">Discover
-                        Significo.</h1>
-                    <button class="border-2 border-black bg-black text-yellow-200 pl-7 pr-7 pt-2 pb-2 mt-8 font-['Satoshi_variable']">LET'S GO</button>
-                </div>
-                <p class="text-xl whitespace-pre-line font-['Satoshi_variable'] mr-[15rem] pb-[3rem]">Find out how Significo's people-centered
-                    designs can make health technology more
-                    empowering.</p>
-            </div>
-            <div class="footer section pt-[9rem] bg-black text-white ">
-                <div class="upFtr flex ml-[3rem] mr-[3rem] justify-between items-center">
-                    <div class="leftFtr text-left font-['Pp_Neue_Machina']">
-                        <ul>
-                            <li class="text-2xl leading-[2]">Home</li>
-                            <li class="text-2xl leading-[2]">Solutions</li>
-                            <li class="text-2xl leading-[2]">About</li>
-                            <li class="text-2xl leading-[2]">Team</li>
-                            <li class="text-2xl leading-[2]">Contact</li>
-                        </ul>
-                    </div>
-                    <div class="centerFtr font-['Satoshi_variable']">
-                        <h1 class="text-3xl whitespace-pre-line">Join our mailing list for
-                            the latest updates.</h1>
-                        <input class="email border-2 pt-[0.83rem] pr-[1.32rem] pb-[0.83rem] pl-[1.32rem] mt-7"
-                            type="email"
-                            name="emailId"
-                            id="emailId"
-                            placeholder="Enter your email address..."
-                            size="35"
-                        />
-                        <button class="pt-[0.83rem] pr-[1.32rem] pb-[0.83rem] pl-[1.32rem] ml-2 bg-yellow-200 ">SUBSCRIBE</button>
-                    </div>
-                    <div class="rightFtr text-right font-['Pp_Neue_Machina']">
-                        <ul>
-                            <li class="text-2xl leading-[2]">Insights</li>
-                            <li class="text-2xl leading-[2]">Newsroom</li>
-                            <li class="text-2xl leading-[2]">Resources</li>
-                            <li class="text-2xl leading-[2]">Contact</li>
-                            <li class="text-2xl leading-[2]">Careers</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="downFtr font-['Pp_Neue_Machina']">
-                    <div class="significoLogoParent">
-                        <div class="significoLogo text-[20rem] flex justify-center">
-                            <span class="letter">S</span>
-                            <span class="letter">i</span>
-                            <span class="letter">g</span>
-                            <span class="letter">n</span>
-                            <span class="letter">i</span>
-                            <span class="letter">f</span>
-                            <span class="letter">i</span>
-                            <span class="letter">c</span>
-                            <span class="letter">o</span>
-                        </div>
-                    </div>
 
-                    <div class="copyright flex justify-around items-center relative">
-                        <div class="policyterms flex">
-                            <div class="text-sm underline">Privacy Policy</div>
-                            <div class="text-sm underline ml-7">Terms of Use</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Significo X Clone</title>
+</head>
+
+<body theme="black">
+    <div class="main w-full">
+        <div data-color="black" class="home section w-full h-[200vh] relative">
+            <div class="w-full sticky top-0 left-0">
+                <div class="btmtext absolute z-[4] bottom-[4.5%] left-[3.2%] w-52 ">
+                    <h1 class="font-['Satoshi_variable']">We build big ideas.</h1>
+                    <h1 class="font-['Satoshi_variable']">Software. Apps. Tools.</h1>
+                    <h1 class="font-['Satoshi_variable']">For real people. Real lives.</h1>
+                </div>
+                <div style="--clip: 100%"
+                    class="vdodiv w-full h-screen absolute z-[3] top-0 left-0 bg-black overflow-hidden">
+                    <video loop autoplay muted
+                        class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                        src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq"></video>
+                </div>
+                <div class="marqueescontainer w-full h-screen relative overflow-hidden">
+                    <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2 w-73 text-center">
+                        <h1 class="text-[1.67rem] leading-[1.6] font-['Satoshi_variable'] ">Crafting a new paradigm of
+                        </h1>
+                        <h1 class="text-[1.67rem] leading-[1.6] font-['Satoshi_variable'] ">healthcare, one that is</h1>
+                    </div>
+                    <div
+                        class="slidesm absolute scale-[1] top-[57%] left-[41.8%] 2xl:top-[54.2%] 2xl:left-[65.25%] -translate-x-1/2 -translate-y-1/2 w-[90%]">
+                        <div
+                            class="row rgt 2xl:-translate-x-1/3 -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">intuitive</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
+                            </div>
                         </div>
-                        <p class="text-sm">Copyright © 2024 Significo. All rights reserved.</p>
-                        <div class="socialMediaLinks flex justify-end gap-10">
-                            <div><a href="https://www.instagram.com/jk.jitendra725/"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4531 3.03711H8.45312C5.6917 3.03711 3.45312 5.27569 3.45312 8.03711V16.0371C3.45312 18.7985 5.6917 21.0371 8.45312 21.0371H16.4531C19.2145 21.0371 21.4531 18.7985 21.4531 16.0371V8.03711C21.4531 5.27569 19.2145 3.03711 16.4531 3.03711ZM19.7031 16.0371C19.6976 17.8297 18.2457 19.2816 16.4531 19.2871H8.45312C6.66048 19.2816 5.20861 17.8297 5.20312 16.0371V8.03711C5.20861 6.24446 6.66048 4.7926 8.45312 4.78711H16.4531C18.2457 4.7926 19.6976 6.24446 19.7031 8.03711V16.0371ZM17.2031 8.28711C17.7554 8.28711 18.2031 7.83939 18.2031 7.28711C18.2031 6.73483 17.7554 6.28711 17.2031 6.28711C16.6508 6.28711 16.2031 6.73483 16.2031 7.28711C16.2031 7.83939 16.6508 8.28711 17.2031 8.28711ZM12.4531 7.53711C9.96784 7.53711 7.95312 9.55183 7.95312 12.0371C7.95312 14.5224 9.96784 16.5371 12.4531 16.5371C14.9384 16.5371 16.9531 14.5224 16.9531 12.0371C16.9558 10.8428 16.4825 9.69668 15.638 8.85219C14.7935 8.0077 13.6474 7.53445 12.4531 7.53711ZM9.70312 12.0371C9.70312 13.5559 10.9343 14.7871 12.4531 14.7871C13.9719 14.7871 15.2031 13.5559 15.2031 12.0371C15.2031 10.5183 13.9719 9.28711 12.4531 9.28711C10.9343 9.28711 9.70312 10.5183 9.70312 12.0371Z" fill="currentColor"></path>
-                                </svg></a></div>
-                            <div><a href="https://www.linkedin.com/company/jitendra-tiwari-004943182/"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.95312 3.2793C4.1247 3.2793 3.45312 3.95087 3.45312 4.7793V19.7793C3.45312 20.6077 4.1247 21.2793 4.95312 21.2793H19.9531C20.7815 21.2793 21.4531 20.6077 21.4531 19.7793V4.7793C21.4531 3.95087 20.7815 3.2793 19.9531 3.2793H4.95312ZM8.97388 7.28202C8.97951 8.23827 8.26373 8.82749 7.41435 8.82327C6.61419 8.81905 5.9167 8.18202 5.92092 7.28343C5.92514 6.43827 6.5931 5.75905 7.46076 5.77874C8.34107 5.79843 8.97951 6.4439 8.97388 7.28202ZM12.7328 10.0411H10.2128H10.2114V18.6009H12.8748V18.4012C12.8748 18.0213 12.8745 17.6413 12.8742 17.2612C12.8734 16.2474 12.8725 15.2325 12.8777 14.219C12.8791 13.9729 12.8903 13.717 12.9536 13.4821C13.1912 12.6046 13.9802 12.0379 14.8605 12.1772C15.4258 12.2657 15.7998 12.5934 15.9573 13.1264C16.0544 13.4596 16.098 13.8182 16.1022 14.1656C16.1136 15.2132 16.112 16.2608 16.1104 17.3085C16.1098 17.6783 16.1092 18.0483 16.1092 18.4181V18.5995H18.7811V18.3942C18.7811 17.9422 18.7809 17.4903 18.7806 17.0384C18.7801 15.9089 18.7795 14.7794 18.7825 13.6495C18.7839 13.139 18.7291 12.6356 18.6039 12.142C18.4169 11.4079 18.0302 10.8004 17.4016 10.3617C16.9558 10.0495 16.4664 9.8484 15.9194 9.8259C15.8571 9.82331 15.7943 9.81992 15.7312 9.81651C15.4515 9.80139 15.1672 9.78603 14.8998 9.83996C14.1348 9.99324 13.4627 10.3434 12.955 10.9607C12.896 11.0315 12.8383 11.1034 12.7522 11.2107L12.7328 11.235V10.0411ZM6.13477 18.6037H8.78555V10.0466H6.13477V18.6037Z" fill="currentColor"></path>
-                                </svg></a></div>
-                            <div><a href="https://github.com/jkjitendra"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20.88 3.099C20.147 2.366 19.265 2 18.233 2H5.746C4.714 2 3.832 2.366 3.099 3.099C2.366 3.832 2 4.714 2 5.746V18.233C2 19.265 2.366 20.147 3.099 20.88C3.832 21.613 4.714 21.979 5.746 21.979H8.66C8.85 21.979 8.993 21.972 9.089 21.959C9.20069 21.9366 9.30151 21.877 9.375 21.79C9.47 21.69 9.518 21.545 9.518 21.355L9.511 20.47C9.507 19.906 9.505 19.46 9.505 19.13L9.205 19.182C9.015 19.217 8.775 19.232 8.484 19.228C8.18069 19.2224 7.87834 19.192 7.58 19.137C7.2624 19.0784 6.96343 18.9446 6.708 18.747C6.44049 18.5446 6.24097 18.2656 6.136 17.947L6.006 17.647C5.89643 17.4104 5.75877 17.1878 5.596 16.984C5.41 16.741 5.221 16.577 5.03 16.49L4.94 16.425C4.87724 16.3801 4.82016 16.3277 4.77 16.269C4.72209 16.2145 4.68265 16.1532 4.653 16.087C4.627 16.026 4.649 15.976 4.718 15.937C4.788 15.897 4.913 15.878 5.096 15.878L5.356 15.918C5.529 15.952 5.744 16.056 5.999 16.229C6.25706 16.4049 6.47263 16.6362 6.63 16.906C6.83 17.261 7.07 17.532 7.352 17.719C7.634 17.905 7.918 17.999 8.204 17.999C8.49 17.999 8.737 17.977 8.946 17.934C9.14811 17.8922 9.34451 17.8264 9.531 17.738C9.609 17.158 9.821 16.71 10.168 16.398C9.71838 16.3539 9.27276 16.2757 8.835 16.164C8.40779 16.0466 7.99694 15.8763 7.612 15.657C7.20924 15.4377 6.8535 15.1414 6.565 14.785C6.288 14.438 6.06 13.983 5.882 13.42C5.705 12.856 5.616 12.205 5.616 11.468C5.616 10.419 5.958 9.526 6.643 8.788C6.323 8 6.353 7.115 6.734 6.136C6.986 6.057 7.359 6.116 7.853 6.311C8.347 6.506 8.709 6.673 8.939 6.811C9.169 6.951 9.353 7.068 9.492 7.163C10.305 6.93675 11.1451 6.82303 11.989 6.825C12.848 6.825 13.68 6.938 14.487 7.163L14.981 6.851C15.361 6.62285 15.7618 6.43133 16.178 6.279C16.638 6.105 16.988 6.058 17.232 6.136C17.622 7.116 17.656 8 17.335 8.789C18.02 9.526 18.363 10.419 18.363 11.469C18.363 12.206 18.274 12.859 18.096 13.426C17.919 13.994 17.689 14.449 17.407 14.792C17.1134 15.1439 16.7562 15.4373 16.354 15.657C15.934 15.891 15.526 16.06 15.131 16.164C14.6933 16.2761 14.2477 16.3546 13.798 16.399C14.248 16.789 14.474 17.404 14.474 18.245V21.355C14.474 21.502 14.495 21.621 14.539 21.712C14.5592 21.7558 14.5881 21.7952 14.6238 21.8276C14.6595 21.8601 14.7014 21.8851 14.747 21.901C14.843 21.935 14.927 21.957 15.001 21.965C15.075 21.975 15.181 21.978 15.319 21.978H18.233C19.265 21.978 20.147 21.612 20.88 20.879C21.612 20.147 21.979 19.264 21.979 18.232V5.746C21.979 4.714 21.613 3.832 20.88 3.099Z" fill="currentColor"></path>
-                                </svg></a></div>
-                            <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M22.0445 7.24012C21.9306 6.81752 21.708 6.43212 21.3989 6.12228C21.0897 5.81245 20.7048 5.58898 20.2825 5.47412C18.7165 5.04412 12.4515 5.03712 12.4515 5.03712C12.4515 5.03712 6.1875 5.03012 4.6205 5.44112C4.19843 5.56126 3.81432 5.78789 3.50507 6.09925C3.19581 6.41061 2.97179 6.79624 2.8545 7.21912C2.4415 8.78512 2.4375 12.0331 2.4375 12.0331C2.4375 12.0331 2.4335 15.2971 2.8435 16.8471C3.0735 17.7041 3.7485 18.3811 4.6065 18.6121C6.1885 19.0421 12.4365 19.0491 12.4365 19.0491C12.4365 19.0491 18.7015 19.0561 20.2675 18.6461C20.69 18.5315 21.0752 18.3085 21.3852 17.9993C21.6951 17.6901 21.9189 17.3054 22.0345 16.8831C22.4485 15.3181 22.4515 12.0711 22.4515 12.0711C22.4515 12.0711 22.4715 8.80612 22.0445 7.24012ZM10.4475 15.0421L10.4525 9.04212L15.6595 12.0471L10.4475 15.0421Z" fill="currentColor"></path>
-                                </svg></a></div>
-                            <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M22.4512 12.3414C22.4512 6.78478 17.9741 2.28027 12.4512 2.28027C6.92832 2.28027 2.45117 6.78478 2.45117 12.3414C2.45117 17.3631 6.10801 21.5255 10.8887 22.2803V15.2497H8.34961V12.3414H10.8887V10.1248C10.8887 7.60323 12.3817 6.21039 14.6658 6.21039C15.76 6.21039 16.9043 6.4069 16.9043 6.4069V8.88288H15.6434C14.4012 8.88288 14.0137 9.65849 14.0137 10.4542V12.3414H16.7871L16.3438 15.2497H14.0137V22.2803C18.7944 21.5255 22.4512 17.3633 22.4512 12.3414Z" fill="currentColor"></path>
-                                </svg></a></div>
-                            <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.6292 4.28027H20.3893L14.3592 11.0577L21.4531 20.2803H15.8987L11.5482 14.6869L6.57035 20.2803H3.80856L10.2583 13.0311L3.45312 4.28027H9.14857L13.081 9.39289L17.6292 4.28027ZM16.6604 18.6557H18.1899L8.31753 5.81955H6.67632L16.6604 18.6557Z" fill="currentColor"></path>
-                                </svg></a></div>
+                        <div class="row lft -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                            </div>
+                        </div>
+                        <div class="row rgt -translate-x-1/3 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                            </div>
+                        </div>
+                        <div class="row lft -translate-x-1/4 w-full flex items-center gap-10 whitespace-nowrap">
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl ">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">useful</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">empathetic</h1>
+                                <div class="imgdiv w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-yellow-500">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="elem flex items-center gap-10">
+                                <h1 class="font-semibold font-['Pp_Neue_Machina'] text-8xl">intuitive</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div data-color="cyan" class="craft section section-space w-full flex gap-10 justify-between items-start mt-[13rem] mb-[18rem] px-10 py-10 relative">
+            <div class="ltext w-[40%] sticky top-[4rem] left-[3.5rem] font-['Satoshi_variable'] ">
+                <div class="subtxtpara font-[500]">
+                    <p class="text-[1.5rem] leading-[1.6] tracking-[-0.02em]">Significo is a leading health software
+                        creator founded on the belief</p>
+                    <p class="text-[1.5rem] leading-[1.6] tracking-[-0.02em]">that technology can transform healthcare
+                        to put people first.</p>
+                    <p class="text-[1.5rem] leading-[1.6] tracking-[-0.02em]">Whether they are employees, members,
+                        customers, or clients, we</p>
+                    <p class="text-[1.5rem] leading-[1.6] tracking-[-0.02em]">never forget the real people we're
+                        designing for.</p>
+                </div>
+                <div class="craftHeading mt-[2rem] mb-10">
+                    <h1 class="text-[4.9rem] leading-[1.2] font-['Pp_Neue_Machina'] ">We Craft</h1>
+                    <h1 class="text-[4.9rem] leading-[1.2] font-['Pp_Neue_Machina'] ">Human-Cetric</h1>
+                    <h1 class="text-[4.9rem] leading-[1.2] font-['Pp_Neue_Machina'] ">Health Software</h1>
+                </div>
+                <div class="w-fit px-10 py-5 border-[1px] border-[--dcyan]">
+                    <div class="masker overflow-hidden">
+                        <span class="inline-block">OUR SOLUTIONS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cards_right">
+                <div class="cards__list font-['Satoshi_variable'] ">
+                    <div class="cards__item">
+                        <div class="cards__content">
+                            <div  class="text-[1.55rem] font-[600] mb-[22px] leading-[1.1] tracking-[-0.02em]" >
+                                Driven by Purpose
+                            </div>
+                            <p class="text-[1.1rem] font-[500] relative opacity-100 whitespace-pre-line"> We believe technology can dramatically 
+                                improve the experience of managing health,
+                                and when crafted with empathy, intention,
+                                and expertise, impact lives at scale. 
+                            </p>
+                        </div>
+                        <div class="cards__icon">
+                            <div class="svg w-embed"><svg width="100%" height="100%" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z"
+                                        fill="currentColor"></path>
+                                    <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__content">
+                            <div  class="text-[1.55rem] font-[600] mb-[22px] leading-[1.1] tracking-[-0.02em]" >
+                                Custom Products
+                            </div>
+                            <p  class="text-[1.1rem] font-[500] relative opacity-100 whitespace-pre-line" >We see a need and we develop a solution.
+                                Our proprietary technology is available to
+                                integrate with your systems, to license, or to
+                                customize to meet your needs.
+                            </p>
+                        </div>
+                        <div class="cards__icon">
+                            <div class="svg w-embed"><svg width="100%" height="100%" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z"
+                                        fill="currentColor"></path>
+                                    <path opacity="0.2"
+                                        d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M49.0006 40L49.0002 29.9703C49.0001 26.7878 47.7358 23.7358 45.4855 21.4855L36 12"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M36 22V12H46" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path
+                                        d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M15 24L15.0004 34.0297C15.0005 37.2122 16.2648 40.2642 18.5151 42.5145L28.0006 52"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M28.0003 42V52H18.0003" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__content">
+                            <div  class="text-[1.55rem] font-[600] mb-[22px] leading-[1.1] tracking-[-0.02em]" >
+                                Partnerships
+                            </div>
+                            <p  class="text-[1.1rem] font-[500] relative opacity-100 whitespace-pre-line" >We partner with like-minded benefits
+                                providers, insurance, and health companies
+                                to create custom solutions and technology.
+                            </p>
+                        </div>
+                        <div class="cards__icon">
+                            <div class="svg w-embed"><svg width="100%" height="100%" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M50 38.2155L40.8007 47.4147C40.5565 47.659 40.2532 47.8358 39.9204 47.928C39.5875 48.0201 39.2365 48.0246 38.9014 47.9408L24.4122 44.3185C24.1404 44.2506 23.886 44.1263 23.6653 43.9537L10 33.268L18.1436 17.9475L30.9736 14.2071C31.4319 14.0735 31.9229 14.1082 32.3578 14.3051L41 18.2155H35.8284C35.5658 18.2155 35.3057 18.2672 35.0631 18.3677C34.8204 18.4682 34.5999 18.6155 34.4142 18.8012L24.6306 28.5848C24.428 28.7875 24.2713 29.0313 24.1711 29.2997C24.0709 29.5682 24.0295 29.855 24.0498 30.1408C24.0702 30.4267 24.1517 30.7048 24.2888 30.9564C24.426 31.208 24.6156 31.4271 24.8448 31.5991L26.2 32.6155C27.5848 33.654 29.269 34.2155 31 34.2155C32.731 34.2155 34.4152 33.654 35.8 32.6155L39 30.2155L50 38.2155Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M60.1794 30.4462L54 33.5359L46 18.2154L52.2423 15.0942C52.7113 14.8597 53.2536 14.8188 53.7525 14.9802C54.2514 15.1416 54.6669 15.4925 54.9096 15.9573L61.0578 27.7316C61.1808 27.967 61.2556 28.2246 61.2779 28.4892C61.3002 28.7539 61.2696 29.0204 61.1878 29.2731C61.1061 29.5258 60.9748 29.7596 60.8016 29.9611C60.6285 30.1625 60.417 30.3274 60.1794 30.4462V30.4462Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M10.0011 33.2681L3.8217 30.1784C3.58414 30.0596 3.37261 29.8947 3.19947 29.6932C3.02633 29.4918 2.89504 29.258 2.81327 29.0052C2.7315 28.7525 2.70088 28.4861 2.7232 28.2214C2.74552 27.9568 2.82033 27.6992 2.94327 27.4638L9.09151 15.6895C9.33421 15.2247 9.74973 14.8738 10.2486 14.7124C10.7475 14.551 11.2898 14.5919 11.7588 14.8264L18.0011 17.9475L10.0011 33.2681Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M54 33.5359L50 38.2154L40.8007 47.4147C40.5565 47.6589 40.2532 47.8357 39.9204 47.9279C39.5875 48.0201 39.2365 48.0245 38.9014 47.9407L24.4122 44.3184C24.1404 44.2505 23.886 44.1262 23.6653 43.9537L10 33.2679"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M50 38.2155L39 30.2155L35.8 32.6155C34.4152 33.654 32.7309 34.2155 31 34.2155C29.269 34.2155 27.5848 33.654 26.2 32.6155L24.8448 31.5991C24.6156 31.4271 24.4259 31.208 24.2888 30.9564C24.1516 30.7048 24.0701 30.4267 24.0498 30.1408C24.0295 29.855 24.0709 29.5682 24.1711 29.2997C24.2713 29.0313 24.428 28.7875 24.6306 28.5849L34.4142 18.8012C34.5999 18.6155 34.8204 18.4682 35.063 18.3677C35.3057 18.2672 35.5658 18.2155 35.8284 18.2155H46"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M18.1433 17.9475L30.9733 14.2071C31.4316 14.0735 31.9226 14.1082 32.3576 14.3051L40.9997 18.2155"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M28 53.2154L20.4651 51.3317C20.1594 51.2552 19.876 51.1076 19.6381 50.9008L14 46"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__content">
+                            <div  class="text-[1.55rem] font-[600] mb-[22px] leading-[1.1] tracking-[-0.02em]" >
+                                Security &amp; Compliance
+                            </div>
+                            <p  class="text-[1.1rem] font-[500] relative opacity-100 whitespace-pre-line" >Not just technology experts. Health experts.
+                                We are able to navigate both stringent
+                                regulatory environments and the 
+                                complexities of technology and data.
+                            </p>
+                        </div>
+                        <div class="cards__icon">
+                            <div class="svg w-embed"><svg width="100%" height="100%" viewBox="0 0 64 64" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z"
+                                        fill="currentColor"></path>
+                                    <path
+                                        d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M43 24L28.3333 38L21 31" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="salmon" class="real section w-full ">
+            <div class="cont h-[400vh] relative">
+                <div class="slides overflow-hidden sticky top-0 left-0 flex w-full gap-20 h-[100vh]">
+                    <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 ">
+                        <div class="text font-['Pp_Neue_Machina']">
+                            <h1 class="text-[6.67rem] leading-[1.2] ">Real Talk,</h1>
+                            <h1 class="text-[6.67rem] leading-[1.2] ">Real Impact</h1>
+                        </div>
+                        <div
+                            class="image absolute top-1/2 rounded-full -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-500 overflow-hidden">
+                            <img class="w-full h-full object-cover scale-[1.2] "
+                                src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+                                alt="Philip Martin" />
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex justify-center items-center flex-shrink-0 relative">
+                        <div
+                            class="img1 absolute z-[3] left-[25%] bottom-[13%] rounded-full overflow-hidden w-[9rem] h-[9rem]">
+                            <img class="w-full h-full object-cover"
+                                src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBvcnRyYWl0fGVufDB8fDB8fHww"
+                                alt="" />
+                        </div>
+                        <div
+                            class="img1 absolute z-[3] left-1/2 -translate-y-1/2 -translate-x-1/2 top-0 rounded-full overflow-hidden w-[15rem] h-[15rem]">
+                            <img class="w-full h-full object-cover"
+                                src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edd08cc0ac13ed6995bd_4.jpg"
+                                alt="" />
+                        </div>
+                        <div
+                            class="image absolute top-1/2 rounded-full -translate-y-1/2 right-0 translate-x-1/2 w-[20rem] h-[20rem] bg-red-500 overflow-hidden">
+                            <img class="w-full h-full object-cover scale-[1.2] "
+                                src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee2e5e80fe8ace7a1ff3_5.jpg"
+                                alt="Philip Martin" />
+                        </div>
+                        <div
+                            class="img1 absolute z-[3] left-1/2 -translate-x-1/2 top-[76%] rounded-full overflow-hidden w-[21rem] h-[21rem]">
+                            <img class="w-full h-full object-cover scale-[1.2]"
+                                src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee19cb5203ee12c21ba3_3.jpg"
+                                alt="" />
+                        </div>
+                        <div class="w-[60%] text-center font-['Pp_Neue_Machina'] relative">
+                            <h3
+                                class="w-1/3 text-left font-[500] leading-7 tracking-tight text-[1.25rem] absolute top-0 left-0 font-['Satoshi_variable'] -translate-y-1/2 -translate-x-1/3">
+                                We're on a mission to impact as many lives as possible and build a better company while
+                                we do it. Here's our progress.</h3>
+                            <h1 class="font-semibold leading-none text-[9.74rem] text-white">20.4M</h1>
+                            <h3 class="text-[2.7rem] font-[500] leading-none tracking-tight">Real people — real lives —
+                                we have built products and solutions for.</h3>
+                        </div>
+                    </div>
+                    <div class="slide w-full h-screen flex items-center justify-center flex-shrink-0 relative">
+                        <img class="w-[15rem] 2xl:scale-[1.4] absolute bottom-[74%] 2xl:bottom-[80%] left-[35%] 2xl:left-[40%] -translate-x-1/2"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure.png"
+                            alt="">
+                        <div class="w-[60%] top-0 left-[5%] 2xl:left-[10%] font-['Pp_Neue_Machina'] relative">
+                            <h3
+                                class="w-1/3 text-left font-[500] leading-7 tracking-[-0.02em] text-[1.25rem] absolute top-[-25%] left-[-20%] 2xl:left-[-25%] font-['Satoshi_variable'] -translate-y-1/2 -translate-x-1/3">
+                                Our team is global and diverse, because our individual experiences make us stronger.
+                            </h3>
+                            <h1 class="font-semibold leading-none text-[9.74rem] text-white">49%</h1>
+                            <h3 class="text-[2.78rem] font-semibold leading-[1.2] tracking-tight">Expert Women in Tech.
+                            </h3>
+                        </div>
+                        <img class="w-[22rem] 2xl:scale-[1.2] absolute top-[60%] 2xl:top-[40%] left-[85%] -translate-y-1/2 -translate-x-1/2"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png"
+                            alt="">
+                        <img class="w-[22rem] 2xl:scale-[1.4] absolute top-[63%] 2xl:top-[72.5%] left-[31%] -translate-x-1/2"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="team section font-['Pp_Neue_Machina'] py-20">
+            <h1 class="text-center font-[300] text-7xl tracking-tight">Our Team</h1>
+            <div class="list mt-10 w-full px-10 ">
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">01</h3>
+                            <h1 class="text-5xl">Dr. Ric McCartney</h1>
+                        </div>
+                        <h3 class="text-3xl">CEO</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">02</h3>
+                            <h1 class="text-5xl">Chris Koha</h1>
+                        </div>
+                        <h3 class="text-3xl">COO</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">03</h3>
+                            <h1 class="text-5xl">Caroline Nieto</h1>
+                        </div>
+                        <h3 class="text-3xl">Chief Product Officer</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65cd134a7ece047ea2260d5b_Caroline%20Nieto.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">04</h3>
+                            <h1 class="text-5xl">Victor Albertos</h1>
+                        </div>
+                        <h3 class="text-3xl">CTO</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">05</h3>
+                            <h1 class="text-5xl">Dr. Jana Hapfelmeier</h1>
+                        </div>
+                        <h3 class="text-3xl">Chief Innovation Officer</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325a_655d4fbc461dbfc3c7e1914e_Dr.20Jana20Hapfelmeier.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">06</h3>
+                            <h1 class="text-5xl">Michael Robin</h1>
+                        </div>
+                        <h3 class="text-3xl">VP of Marketing</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832da_655d501d4436fe51b356605d_Michael20Robin.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">07</h3>
+                            <h1 class="text-5xl">Adrian Rubio</h1>
+                        </div>
+                        <h3 class="text-3xl">VP of Engineering</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem border-b-2 border-black w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">08</h3>
+                            <h1 class="text-5xl">Cy Serrano</h1>
+                        </div>
+                        <h3 class="text-3xl">VP of Product</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832c7_655d4fcd461dbfc3c7e19739_Cy20Serrano.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+                <div class="listitem w-full py-[3rem] relative">
+                    <div class="relative flex items-center justify-between z-[3]">
+                        <div class="left flex gap-20">
+                            <h3 class="text-5xl">09</h3>
+                            <h1 class="text-5xl">Lenya McGrath</h1>
+                        </div>
+                        <h3 class="text-3xl">VP of Partnerships</h3>
+                    </div>
+                    <div
+                        class="picture opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[15rem] h-[15rem] overflow-hidden rounded-full z-[4] ">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e0bbf51f50ea7c26f413f5_Lenya%20McGrath.png"
+                            alt="" />
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-[0%] bottom-0 left-0 bg-blue-600">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="testimonials section w-full mt-[40rem] flex flex-col items-center justify-center px-10 gap-10">
+            <div class=" text self-start w-[45%] flex flex-col items-center justify-center">
+                <div class="divider w-[6.94rem] h-[1px] bg-[#00000033] mt-[3.33rem] mb-[3.33rem]"></div>
+                <h3 class="testimonials-para text-3xl font-light leading-[2.8rem] text-center whitespace-pre-line ">
+                    Working with the Significo team has been such
+                    a pleasure! We took on a significant project to
+                    rebuild our entire platform and the team
+                    approached the project with our best interests
+                    in mind. They continue to prioritize the end
+                    user experience and offer amazing expertise in
+                    all of the areas we lack internally. I would
+                    personally be lost without this team, their
+                    ability to problem solve, their openness to
+                    feedback and desire to build the product like it
+                    is their own.
+                </h3>
+                <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
+                    <div class="image w-32 h-32 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e5_MirandaErnst.jpeg"
+                            alt="" />
+                    </div>
+                    <h1 class="text-3xl">Miranda Ernst</h1>
+                    <h3>Product Manager @ HealthCheck360</h3>
+                </div>
+            </div>
+            <div class=" text self-end w-[45%] flex flex-col items-center justify-center ">
+                <div class="divider w-[6.94rem] h-[1px] bg-[#00000033] mt-[3.33rem] mb-[3.33rem]"></div>
+                <h3 class="testimonials-para text-3xl font-light leading-[2.8rem] text-center whitespace-pre-line ">
+                    Working with Significo and their
+                    recommendation service has been a
+                    game-changer for our occupational
+                    prevention efforts. Our customers are
+                    extremely satisfied with the tool's impressive
+                    technical capabilities and data-driven
+                    approach. But what truly sets it apart is the
+                    intuitive and modern user experience it offers,
+                    making it a breeze for our clients to navigate.
+                    By leveraging this service, our customers have
+                    successfully tackled presenteeism and
+                    absenteeism, making a significant impact on
+                    their workforce's well-being. We highly
+                    recommend Significo to any organization
+                    looking to optimize their occupational health
+                    and drive positive change.</h3>
+                <div class="pers flex flex-col items-center justify-center mt-10 gap-5">
+                    <div class="image w-32 h-32 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483253_EmekAltun.jpg"
+                            alt="" />
+                    </div>
+                    <h1 class="text-3xl">Emek Altun</h1>
+                    <h3>CEO @ Vitaservices</h3>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="capsules section w-full flex items-start justify-between gap-10 h-screen 2xl:mt-[36rem] 2xl:pl-[3rem] mt-[30rem] pl-[2rem] pr-[4rem]">
+            <div class="left w-1/3 2xl:w-1/2 h-full flex flex-col justify-between ">
+                <h1
+                    class="text-[1.25rem] scale-[0.9] leading-[1.6] font-[450] 2xl:font-[480] 2xl:text-[1.7rem] font-['Satoshi_variable'] whitespace-pre-line ml-[-10px] mt-[-50px] ">
+                    Stay up-to-date on the
+                    latest healthcare
+                    innovations and thought
+                    leadership.</h1>
+                <div class="heading font-['Pp_Neue_Machina'] ml-[10px] 2xl:ml-[34px] 2xl:mb-[10.6rem]">
+                    <h1 class="text-6xl 2xl:text-[6.1rem] 2xl:font-[300] 2xl:leading-[1.2] ">Explore</h1>
+                    <h1 class="text-6xl 2xl:text-[6.1rem] 2xl:font-[300] 2xl:leading-[1.2] ">Our Insights</h1>
+                    <div
+                        class="w-fit px-[1.8rem] mt-10 mb-[3.5rem] py-3 border-[1px] border-[--dcyan] 2xl:pt-[2.11rem] 2xl:pr-[5.67rem] 2xl:pb-[2.11rem] 2xl:pl-[5.67rem]">
+                        <div class="masker overflow-hidden">
+                            <span class="inline-block font-['Satoshi_variable']">VIEW ALL ARTICLES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right font-['Pp_Neue_Machina'] h-full flex items-center px-10 gap-20 2xl:pr-[16.3rem]">
+                <div
+                    class="capsule -rotate-[15deg] -translate-y-[20%] flex flex-col items-center pt-[3.5rem] pb-[2.5rem] pl-[1.5rem] pr-[1.5rem] mt-[15rem] rounded-full border-[1px] border-[#E9BBFF] 2xl:pt-[6.5rem] 2xl:pb-[6.5rem] 2xl:pl-[3.5rem] 2xl:pr-[3.5rem] ">
+                    <div class="w-80 h-80 bg-yellow-500 2xl:mb-[78px] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png"
+                            alt="" />
+                    </div>
+                    <div class="text text-center mt-10 mb-10">
+                        <h3 class="text-xl font-semibold">Equity in Tech: An</h3>
+                        <h3 class="text-xl font-semibold">International Women's</h3>
+                        <h3 class="text-xl font-semibold">Day Conversation with</h3>
+                        <h3 class="text-xl font-semibold">Caroline Nieto,</h3>
+                        <h3 class="text-xl font-semibold">Significo's CPO</h3>
+                    </div>
+                    <button
+                        class="bg-[#E9BBFF] font-semibold text-black rounded-full text-s mt-10 mb-[1.39rem] py-2 px-3">Thought
+                        Leadership</button>
+                </div>
+                <div
+                    class="capsule -rotate-[15deg] -translate-y-[7%] flex flex-col items-center pt-[3.5rem] pb-[2.5rem] pl-[1.5rem] pr-[1.5rem] rounded-full border-[1px] border-[#E9BBFF] 2xl:pt-[6.5rem] 2xl:pb-[6.5rem] 2xl:pl-[3.5rem] 2xl:pr-[3.5rem]">
+                    <button
+                        class="bg-[#E9BBFF] font-semibold text-black rounded-full text-s mt-[1.39rem] mb-10 py-2 px-3">Thought
+                        Leadership</button>
+                    <div class="text text-center mb-5">
+                        <div class="text-heading mb-5">
+                            <h3 class="text-xl font-semibold">How to Use Digital</h3>
+                            <h3 class="text-xl font-semibold">Health Interventions</h3>
+                            <h3 class="text-xl font-semibold">to Align Employee &</h3>
+                            <h3 class="text-xl font-semibold">Organizational Goals</h3>
+                        </div>
+                        <div class="text-desc font-['Satoshi_variable']">
+                            <p class="text-[0.97rem] font-[400]">How to use personalized digital health</p>
+                            <p class="text-[0.97rem] font-[400]">interventions to empower employees while </p>
+                            <p class="text-[0.97rem] font-[400]">achieving your organization's goals.</p>
+                        </div>
+                    </div>
+                    <div class="w-80 h-80 bg-yellow-500 2xl:mt-[78px] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover"
+                            src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="discover section flex justify-between items-end 2xl:pl-[7rem] 2xl:pr-[7rem] 2xl:pt-[0rem] 2xl:pb-[7rem] p-[4rem] md:mt-[13rem] bg-[#F6F19C]">
+            <div class="groupBtnText">
+                <h1
+                    class="text-[4.4rem] font-[300] tracking-[0.02em] leading-[1.2] whitespace-pre-line font-['Pp_Neue_Machina'] ">
+                    Discover
+                    Significo.</h1>
+                <button
+                    class="border-2 border-black bg-black text-yellow-200 pl-7 pr-7 pt-2 pb-2 mt-8 font-['Satoshi_variable']">LET'S
+                    GO</button>
+            </div>
+            <p class="text-xl whitespace-pre-line font-['Satoshi_variable'] mr-[15rem] pb-[3rem]">Find out how
+                Significo's people-centered
+                designs can make health technology more
+                empowering.</p>
+        </div>
+        <div class="footer section pt-[4rem] bg-black text-white ">
+            <div class="upFtr flex ml-[3rem] mr-[3rem] justify-between items-center">
+                <div class="leftFtr text-left font-['Pp_Neue_Machina']">
+                    <ul>
+                        <li class="text-2xl leading-[2]">Home</li>
+                        <li class="text-2xl leading-[2]">Solutions</li>
+                        <li class="text-2xl leading-[2]">About</li>
+                        <li class="text-2xl leading-[2]">Team</li>
+                        <li class="text-2xl leading-[2]">Contact</li>
+                    </ul>
+                </div>
+                <div class="centerFtr font-['Satoshi_variable']">
+                    <h1 class="text-3xl whitespace-pre-line">Join our mailing list for
+                        the latest updates.</h1>
+                    <input class="email border-2 pt-[0.83rem] pr-[1.32rem] pb-[0.83rem] pl-[1.32rem] mt-7" type="email"
+                        name="emailId" id="emailId" placeholder="Enter your email address..." size="35" />
+                    <button
+                        class="pt-[0.83rem] pr-[1.32rem] pb-[0.83rem] pl-[1.32rem] ml-2 bg-yellow-200 ">SUBSCRIBE</button>
+                </div>
+                <div class="rightFtr text-right font-['Pp_Neue_Machina']">
+                    <ul>
+                        <li class="text-2xl leading-[2]">Insights</li>
+                        <li class="text-2xl leading-[2]">Newsroom</li>
+                        <li class="text-2xl leading-[2]">Resources</li>
+                        <li class="text-2xl leading-[2]">Contact</li>
+                        <li class="text-2xl leading-[2]">Careers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="downFtr font-['Pp_Neue_Machina']">
+                <div class="significoLogoParent">
+                    <div class="significoLogo text-[20rem] flex justify-center">
+                        <span class="letter">S</span>
+                        <span class="letter">i</span>
+                        <span class="letter">g</span>
+                        <span class="letter">n</span>
+                        <span class="letter">i</span>
+                        <span class="letter">f</span>
+                        <span class="letter">i</span>
+                        <span class="letter">c</span>
+                        <span class="letter">o</span>
+                    </div>
+                </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
-        <script src="index.js"></script>
-    </body>
+                <div class="copyright pb-[2rem] flex justify-around items-center relative">
+                    <div class="policyterms flex">
+                        <div class="text-sm underline">Privacy Policy</div>
+                        <div class="text-sm underline ml-7">Terms of Use</div>
+                    </div>
+                    <p class="text-sm">Copyright © 2024 Significo. All rights reserved.</p>
+                    <div class="socialMediaLinks flex justify-end gap-10">
+                        <div><a href="https://www.instagram.com/jk.jitendra725/"><svg width="24" height="24"
+                                    viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.4531 3.03711H8.45312C5.6917 3.03711 3.45312 5.27569 3.45312 8.03711V16.0371C3.45312 18.7985 5.6917 21.0371 8.45312 21.0371H16.4531C19.2145 21.0371 21.4531 18.7985 21.4531 16.0371V8.03711C21.4531 5.27569 19.2145 3.03711 16.4531 3.03711ZM19.7031 16.0371C19.6976 17.8297 18.2457 19.2816 16.4531 19.2871H8.45312C6.66048 19.2816 5.20861 17.8297 5.20312 16.0371V8.03711C5.20861 6.24446 6.66048 4.7926 8.45312 4.78711H16.4531C18.2457 4.7926 19.6976 6.24446 19.7031 8.03711V16.0371ZM17.2031 8.28711C17.7554 8.28711 18.2031 7.83939 18.2031 7.28711C18.2031 6.73483 17.7554 6.28711 17.2031 6.28711C16.6508 6.28711 16.2031 6.73483 16.2031 7.28711C16.2031 7.83939 16.6508 8.28711 17.2031 8.28711ZM12.4531 7.53711C9.96784 7.53711 7.95312 9.55183 7.95312 12.0371C7.95312 14.5224 9.96784 16.5371 12.4531 16.5371C14.9384 16.5371 16.9531 14.5224 16.9531 12.0371C16.9558 10.8428 16.4825 9.69668 15.638 8.85219C14.7935 8.0077 13.6474 7.53445 12.4531 7.53711ZM9.70312 12.0371C9.70312 13.5559 10.9343 14.7871 12.4531 14.7871C13.9719 14.7871 15.2031 13.5559 15.2031 12.0371C15.2031 10.5183 13.9719 9.28711 12.4531 9.28711C10.9343 9.28711 9.70312 10.5183 9.70312 12.0371Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <div><a href="https://www.linkedin.com/company/jitendra-tiwari-004943182/"><svg width="24"
+                                    height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.95312 3.2793C4.1247 3.2793 3.45312 3.95087 3.45312 4.7793V19.7793C3.45312 20.6077 4.1247 21.2793 4.95312 21.2793H19.9531C20.7815 21.2793 21.4531 20.6077 21.4531 19.7793V4.7793C21.4531 3.95087 20.7815 3.2793 19.9531 3.2793H4.95312ZM8.97388 7.28202C8.97951 8.23827 8.26373 8.82749 7.41435 8.82327C6.61419 8.81905 5.9167 8.18202 5.92092 7.28343C5.92514 6.43827 6.5931 5.75905 7.46076 5.77874C8.34107 5.79843 8.97951 6.4439 8.97388 7.28202ZM12.7328 10.0411H10.2128H10.2114V18.6009H12.8748V18.4012C12.8748 18.0213 12.8745 17.6413 12.8742 17.2612C12.8734 16.2474 12.8725 15.2325 12.8777 14.219C12.8791 13.9729 12.8903 13.717 12.9536 13.4821C13.1912 12.6046 13.9802 12.0379 14.8605 12.1772C15.4258 12.2657 15.7998 12.5934 15.9573 13.1264C16.0544 13.4596 16.098 13.8182 16.1022 14.1656C16.1136 15.2132 16.112 16.2608 16.1104 17.3085C16.1098 17.6783 16.1092 18.0483 16.1092 18.4181V18.5995H18.7811V18.3942C18.7811 17.9422 18.7809 17.4903 18.7806 17.0384C18.7801 15.9089 18.7795 14.7794 18.7825 13.6495C18.7839 13.139 18.7291 12.6356 18.6039 12.142C18.4169 11.4079 18.0302 10.8004 17.4016 10.3617C16.9558 10.0495 16.4664 9.8484 15.9194 9.8259C15.8571 9.82331 15.7943 9.81992 15.7312 9.81651C15.4515 9.80139 15.1672 9.78603 14.8998 9.83996C14.1348 9.99324 13.4627 10.3434 12.955 10.9607C12.896 11.0315 12.8383 11.1034 12.7522 11.2107L12.7328 11.235V10.0411ZM6.13477 18.6037H8.78555V10.0466H6.13477V18.6037Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <div><a href="https://github.com/jkjitendra"><svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.88 3.099C20.147 2.366 19.265 2 18.233 2H5.746C4.714 2 3.832 2.366 3.099 3.099C2.366 3.832 2 4.714 2 5.746V18.233C2 19.265 2.366 20.147 3.099 20.88C3.832 21.613 4.714 21.979 5.746 21.979H8.66C8.85 21.979 8.993 21.972 9.089 21.959C9.20069 21.9366 9.30151 21.877 9.375 21.79C9.47 21.69 9.518 21.545 9.518 21.355L9.511 20.47C9.507 19.906 9.505 19.46 9.505 19.13L9.205 19.182C9.015 19.217 8.775 19.232 8.484 19.228C8.18069 19.2224 7.87834 19.192 7.58 19.137C7.2624 19.0784 6.96343 18.9446 6.708 18.747C6.44049 18.5446 6.24097 18.2656 6.136 17.947L6.006 17.647C5.89643 17.4104 5.75877 17.1878 5.596 16.984C5.41 16.741 5.221 16.577 5.03 16.49L4.94 16.425C4.87724 16.3801 4.82016 16.3277 4.77 16.269C4.72209 16.2145 4.68265 16.1532 4.653 16.087C4.627 16.026 4.649 15.976 4.718 15.937C4.788 15.897 4.913 15.878 5.096 15.878L5.356 15.918C5.529 15.952 5.744 16.056 5.999 16.229C6.25706 16.4049 6.47263 16.6362 6.63 16.906C6.83 17.261 7.07 17.532 7.352 17.719C7.634 17.905 7.918 17.999 8.204 17.999C8.49 17.999 8.737 17.977 8.946 17.934C9.14811 17.8922 9.34451 17.8264 9.531 17.738C9.609 17.158 9.821 16.71 10.168 16.398C9.71838 16.3539 9.27276 16.2757 8.835 16.164C8.40779 16.0466 7.99694 15.8763 7.612 15.657C7.20924 15.4377 6.8535 15.1414 6.565 14.785C6.288 14.438 6.06 13.983 5.882 13.42C5.705 12.856 5.616 12.205 5.616 11.468C5.616 10.419 5.958 9.526 6.643 8.788C6.323 8 6.353 7.115 6.734 6.136C6.986 6.057 7.359 6.116 7.853 6.311C8.347 6.506 8.709 6.673 8.939 6.811C9.169 6.951 9.353 7.068 9.492 7.163C10.305 6.93675 11.1451 6.82303 11.989 6.825C12.848 6.825 13.68 6.938 14.487 7.163L14.981 6.851C15.361 6.62285 15.7618 6.43133 16.178 6.279C16.638 6.105 16.988 6.058 17.232 6.136C17.622 7.116 17.656 8 17.335 8.789C18.02 9.526 18.363 10.419 18.363 11.469C18.363 12.206 18.274 12.859 18.096 13.426C17.919 13.994 17.689 14.449 17.407 14.792C17.1134 15.1439 16.7562 15.4373 16.354 15.657C15.934 15.891 15.526 16.06 15.131 16.164C14.6933 16.2761 14.2477 16.3546 13.798 16.399C14.248 16.789 14.474 17.404 14.474 18.245V21.355C14.474 21.502 14.495 21.621 14.539 21.712C14.5592 21.7558 14.5881 21.7952 14.6238 21.8276C14.6595 21.8601 14.7014 21.8851 14.747 21.901C14.843 21.935 14.927 21.957 15.001 21.965C15.075 21.975 15.181 21.978 15.319 21.978H18.233C19.265 21.978 20.147 21.612 20.88 20.879C21.612 20.147 21.979 19.264 21.979 18.232V5.746C21.979 4.714 21.613 3.832 20.88 3.099Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.0445 7.24012C21.9306 6.81752 21.708 6.43212 21.3989 6.12228C21.0897 5.81245 20.7048 5.58898 20.2825 5.47412C18.7165 5.04412 12.4515 5.03712 12.4515 5.03712C12.4515 5.03712 6.1875 5.03012 4.6205 5.44112C4.19843 5.56126 3.81432 5.78789 3.50507 6.09925C3.19581 6.41061 2.97179 6.79624 2.8545 7.21912C2.4415 8.78512 2.4375 12.0331 2.4375 12.0331C2.4375 12.0331 2.4335 15.2971 2.8435 16.8471C3.0735 17.7041 3.7485 18.3811 4.6065 18.6121C6.1885 19.0421 12.4365 19.0491 12.4365 19.0491C12.4365 19.0491 18.7015 19.0561 20.2675 18.6461C20.69 18.5315 21.0752 18.3085 21.3852 17.9993C21.6951 17.6901 21.9189 17.3054 22.0345 16.8831C22.4485 15.3181 22.4515 12.0711 22.4515 12.0711C22.4515 12.0711 22.4715 8.80612 22.0445 7.24012ZM10.4475 15.0421L10.4525 9.04212L15.6595 12.0471L10.4475 15.0421Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.4512 12.3414C22.4512 6.78478 17.9741 2.28027 12.4512 2.28027C6.92832 2.28027 2.45117 6.78478 2.45117 12.3414C2.45117 17.3631 6.10801 21.5255 10.8887 22.2803V15.2497H8.34961V12.3414H10.8887V10.1248C10.8887 7.60323 12.3817 6.21039 14.6658 6.21039C15.76 6.21039 16.9043 6.4069 16.9043 6.4069V8.88288H15.6434C14.4012 8.88288 14.0137 9.65849 14.0137 10.4542V12.3414H16.7871L16.3438 15.2497H14.0137V22.2803C18.7944 21.5255 22.4512 17.3633 22.4512 12.3414Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                        <div><a href="#"><svg width="24" height="24" viewBox="0 0 25 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17.6292 4.28027H20.3893L14.3592 11.0577L21.4531 20.2803H15.8987L11.5482 14.6869L6.57035 20.2803H3.80856L10.2583 13.0311L3.45312 4.28027H9.14857L13.081 9.39289L17.6292 4.28027ZM16.6604 18.6557H18.1899L8.31753 5.81955H6.67632L16.6604 18.6557Z"
+                                        fill="currentColor"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
 </html>
