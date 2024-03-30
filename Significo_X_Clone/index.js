@@ -39,6 +39,33 @@ function homePageAnimation() {
     }, 'sync1');
 }
 
+function craftPageAnimation() {
+    gsap.utils.toArray(".cards__item").forEach(item => {
+        ScrollTrigger.create({
+            trigger: item,
+            start: "top 50%",
+            onEnter: () => {
+                gsap.to(item, {
+                    width: "42.6rem",
+                    backgroundColor: 'black',
+                    color: '#AEDEE0',
+                    ease: 'power2.inOut'
+                });
+            },
+            onLeaveBack: () => {
+                gsap.to(item, {
+                    width: "35.5rem",
+                    backgroundColor: '',
+                    color: '',
+                    ease: 'power2.inOut'
+                });
+            },
+            toggleActions: "play none none reset",
+            immediateRender: false,
+        });
+    });
+}
+
 function realPageAnimation() {
     gsap.to(".slide", {
         scrollTrigger: {
@@ -55,38 +82,54 @@ function realPageAnimation() {
 function teamPageAnimation() {
     let listitem = document.querySelectorAll(".listitem");
     listitem.forEach(function(item) {
-        item.addEventListener("mousemove", function(details) {
-            let positionX = gsap.utils.mapRange(0, window.innerWidth, -200, 200, details.clientX);
-            gsap.to(this.querySelector(".picture"), {
-                x: positionX,
-                opacity: 1,
-                ease: Power4,
-                duration: 0.5
-            });
+        let picture = item.querySelector(".picture");
+        item.addEventListener("mouseenter", function() {
+            item.addEventListener("mousemove", handleMouseMove);
         });
-        item.addEventListener("mouseleave", function(details) {
-            gsap.to(this.querySelector(".picture"), {
+        item.addEventListener("mouseleave", function() {
+            item.removeEventListener("mousemove", handleMouseMove);
+            gsap.to(picture, {
+                x: 0,
+                y: 0,
                 opacity: 0,
                 ease: Power4,
                 duration: 0.5
             });
-        })
+        });
+
+        function handleMouseMove(event) {
+            let positionX = gsap.utils.mapRange(0, window.innerWidth, -200, 200, event.clientX);
+            let positionY = gsap.utils.mapRange(0, window.innerHeight, -30, 30, event.clientY);
+            gsap.to(picture, {
+                x: positionX,
+                y: positionY,
+                opacity: 1,
+                ease: Power4,
+                duration: 0.5
+            });
+        }
     });
 }
 
 function testimonialsPageAnimation() {
     var clutter = "";
+    let colorTheme = "#2544EE";
+    let secondTestimonial = false;
     let testimonialsPara = document.querySelectorAll(".testimonials-para");
-    testimonialsPara.forEach(textContent => {
+    testimonialsPara.forEach((textContent, index) => {
         clutter = "";
+        if (secondTestimonial === true) {
+            colorTheme = "#704C98";
+        }
         let words = textContent.textContent.split(" ");
         words.forEach(function(textElement) {
             if (textElement === " ") clutter += `<span>&nbsp;</span>`;
-            clutter += `<span>${textElement} </span>`;
+            clutter += `<span style="color: ${colorTheme}">${textElement} </span>`;
         });
         textContent.innerHTML = clutter;
+        secondTestimonial = true;
     });
-
+    
     gsap.set(".testimonials-para span", { opacity: 0.1});
     gsap.set(".testimonials-para span", {
         scrollTrigger: {
@@ -96,8 +139,8 @@ function testimonialsPageAnimation() {
             scrub: 1,
         },
         opacity: 1,
-        stagger: .03,
-        ease: Power4,
+        stagger: 0.1,
+        ease: Power4.out,
     });
 }
 
@@ -183,12 +226,15 @@ function significoLogoAnimation() {
     });
 }
 
-loco();
-homePageAnimation();
-realPageAnimation();
-teamPageAnimation();
-testimonialsPageAnimation();
-capsulesPageAnimation();
-footerReachedBottom();
-bodyColorThemeChange();
-significoLogoAnimation();
+document.addEventListener("DOMContentLoaded", function() {
+    loco();
+    homePageAnimation();
+    craftPageAnimation();
+    realPageAnimation();
+    teamPageAnimation();
+    testimonialsPageAnimation();
+    capsulesPageAnimation();
+    footerReachedBottom();
+    bodyColorThemeChange();
+    significoLogoAnimation();
+});
