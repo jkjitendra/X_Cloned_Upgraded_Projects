@@ -8,6 +8,10 @@
     --dsalmon: #2b1d17;
 }
 
+body {
+    transition: background-color ease-out 0.5s;
+}
+
 .vdodiv {
     clip-path: circle(var(--clip) at 50% 50%);
 }
@@ -49,3 +53,25 @@ body[theme="white"] .section{
     padding-top: calc(220 / 1440 * 100rem);
     padding-bottom: calc(220 / 1440 * 100rem)
 }
+
+.letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(0%);
+    transition: all 0.5s ease-out;
+}
+
+.animate .letter {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate .letter:nth-child(1) { transition-delay: 0.1s; }
+.animate .letter:nth-child(2) { transition-delay: 0.2s; }
+.animate .letter:nth-child(3) { transition-delay: 0.3s; }
+.animate .letter:nth-child(4) { transition-delay: 0.4s; }
+.animate .letter:nth-child(5) { transition-delay: 0.5s; }
+.animate .letter:nth-child(6) { transition-delay: 0.6s; }
+.animate .letter:nth-child(7) { transition-delay: 0.7s; }
+.animate .letter:nth-child(8) { transition-delay: 0.8s; }
+.animate .letter:nth-child(9) { transition-delay: 0.9s; }
